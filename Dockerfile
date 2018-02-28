@@ -5,7 +5,7 @@
 #
 
 # Pull base image
-FROM openjdk:8u151-slim
+FROM openjdk:9.0.1-slim
 
 # Env variables
 ENV SBT_VERSION 1.1.1
