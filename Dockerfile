@@ -8,7 +8,7 @@
 FROM openjdk:9.0.1-slim
 
 # Env variables
-ENV SBT_VERSION 1.1.1
+ENV SBT_VERSION 1.1.2
 
 # Install curl
 RUN \
