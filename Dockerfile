@@ -5,10 +5,10 @@
 #
 
 # Pull base image
-FROM openjdk:9.0.1-slim
+FROM openjdk:9.0.4-slim
 
 # Env variables
-ENV SBT_VERSION 1.1.2
+ENV SBT_VERSION 1.1.5
 
 # Install curl
 RUN \
